@@ -10,4 +10,4 @@ if(qual_sexo =="M"):
 elif(qual_sexo =="F"):
 	print("Feminino");
 else:
- print("Inválido");
+	print("Invalido");
