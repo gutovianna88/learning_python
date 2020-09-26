@@ -16,10 +16,7 @@ numbers_list.append(number_four)
 
 sumatory = 0
 for number in numbers_list:
-    print("antes", sumatory)
     sumatory = sumatory + number
-    print("depois", sumatory)
-    print("fim desse exec")
 
 print(sumatory)
 
