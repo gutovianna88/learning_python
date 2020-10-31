@@ -3,15 +3,15 @@ Faça um programa que calcule o valor total investido por um colecionador em sua
 gasto em cada um deles.
 O usuário deverá informar a quantidade de CDs e o valor para em cada um.
 """
-collection_cds = int(input("Informe o total de Cd's na coleção: "))
-cds_price = []
-cds_score = 0
+total_collection = int(input("Qual o total de CDs de sua coleção? "))
+collection = range(1, total_collection +1)
+total_price = []
 
 
-while cds_score < collection_cds:
-    price = int(input("Informe o valor do CD: "))
-    cds_price.append(price)
-    cds_score = cds_score +1
+for itens in collection:
+    price = int(input("Qual o valor deste item? "))
+    total_price.append(price)
 
 
-print("Total gasto: ", sum(cds_price), "| Gasto médio por CD: ", sum(cds_price)/cds_score)
+print("Custo total de CD's: ", sum(total_price), "| Custo médio por CD: ", sum(total_price) / total_collection)
+
