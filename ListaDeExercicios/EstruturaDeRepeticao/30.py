@@ -18,13 +18,20 @@ bread_price = bread_price.replace(",", ".")
 validation = bread_price.replace(".", "")
 
 
+def format_money(money):
+    return  "R$ {:.2f}".format(money)
+
+
+def two_digits(number):
+    number_str = str(number)
+    return number_str.zfill(2)
+
 
 if validation.isnumeric():
     bread_price = float(bread_price)
     for single in range(1, 51):
-        single_str = str(single)
         calc = single * bread_price
-        print(single_str.zfill(2), "- R$ ", "{:.2f}".format(calc))
+        print(two_digits(single), " - ", format_money(calc))
 
 else:
     print("Valor não permitido! ")
