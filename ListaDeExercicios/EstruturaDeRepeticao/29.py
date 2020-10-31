@@ -11,3 +11,13 @@ Lojas Quase Dois - Tabela de preços
 ...
 50 - R$ 99.50
 """
+from decimal import Decimal
+
+
+price = Decimal("1.99")
+
+
+for item in range(1, 51):
+    calc = item * price
+    print(item, "- R$ ", calc)
+
