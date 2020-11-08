@@ -20,8 +20,3 @@ def pyramid(number):
 
 ask_number = input("Indique um numero: ")
 pyramid(ask_number)
-
-"""
-2 verificar se o numero é inteiro
-3 imprimir a sequencia de numeros mostrando os numeros que ja foram contados
-"""
