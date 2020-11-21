@@ -14,14 +14,3 @@ while do_you_continue:
 
 print(" Menor valor ", min(numbers), " Maior Valor ", max(numbers), " Soma ", sum(numbers))
 
-
-
-
-
-
-"""
-1. Coletar numeros ate cansar o usuario
-2. Obter menor valor
-3. Obter maior valor
-4. Calcular a soma de infinite
-"""
