@@ -1,3 +1,5 @@
+#! /usr/bin/env python3
+
 """
 Faça um programa para imprimir:
     1
